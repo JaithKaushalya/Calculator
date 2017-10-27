@@ -250,13 +250,13 @@ public class Cal extends javax.swing.JFrame {
 
     private void btnFiveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFiveActionPerformed
         // TODO add your handling code here:
-        String Enternumber = txtDisplay.getText()+btnFive.getText();
+        String Enternumber = txtDisplay.getText()+btnFive.getText();//getting numbers
         txtDisplay.setText(Enternumber);
     }//GEN-LAST:event_btnFiveActionPerformed
 
     private void btnZeroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnZeroActionPerformed
         // TODO add your handling code here:
-        String Enternumber = txtDisplay.getText()+btnZero.getText();
+        String Enternumber = txtDisplay.getText()+btnZero.getText();//add numbers
         txtDisplay.setText(Enternumber);
     }//GEN-LAST:event_btnZeroActionPerformed
 
